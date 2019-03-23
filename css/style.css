@@ -19,7 +19,7 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
-  padding-top: 50px;
+  padding-top: 18vh;
 }
 
 .landing {
@@ -31,15 +31,15 @@ body {
 }
 
 .landing h1 {
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .landing p {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .countdown {
-  font-size: 50px;
+  font-size: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 
 .countdown div {
-  padding: 20px;
+  padding: 35px;
   border: 1px #fff solid;
   border-radius: 10px;
   background: #000;
@@ -61,17 +61,17 @@ body {
 
 .countdown span {
   display: block;
-  font-size: 25px;
+  font-size: 40px;
 }
-
-/* .insta {
-  margin: 100px;
-  position: absolute;
-  text-align: center;
-} */
 
 a i {
   color: #fff;
+}
+
+#secondText {
+  font-size: 60%;
+  font-style: italic;
+  margin-left: 5px;
 }
 
 @media (max-width: 650px) {
@@ -99,12 +99,6 @@ a i {
   }
 }
 
-#secondText {
-  font-size: 60%;
-  font-style: italic;
-  margin-left: 5px;
-}
-
 @media (max-height: 600px) {
   img {
     width: 20%;
@@ -122,6 +116,20 @@ a i {
 
   h1 {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .landing h1 {
+    font-size: 80px;
+  }
+
+  .landing p {
+    font-size: 50px;
+  }
+
+  .countdown {
+    font-size: 80px;
   }
 }
 @font-face {
